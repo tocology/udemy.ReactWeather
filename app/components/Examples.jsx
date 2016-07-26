@@ -1,8 +1,20 @@
 import React from 'react'
+import { Link, } from 'react-router'
 
 const Examples = (props) => {
   return (
-    <h3>Examples Component</h3>
+    <div>
+      <h1 className="text-center">Examples Component</h1>
+      <p>Here are a few example locations to try out:</p>
+      <ol>
+        <li>
+          <Link to='/?location=Seoul'>Seoul, Korea</Link>
+        </li>
+        <li>
+          <Link to="/?Austin">Rio, Brazil</Link>
+        </li>
+      </ol>
+    </div>
   )
 };
 
