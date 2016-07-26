@@ -1,9 +1,9 @@
-var React = require('react');
+import React from 'react'
 
-var Examples = (props) => {
+const Examples = (props) => {
   return (
     <h3>Examples Component</h3>
   )
 };
 
-module.exports = Examples;
+export default Examples
