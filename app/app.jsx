@@ -11,7 +11,7 @@ import 'style!css!foundation-sites/dist/foundation.min.css'
 $(document).foundation()
 
 // App css
-import 'style!css!applicationStyles'
+import 'style!css!sass!applicationStyles'
 
 ReactDOM.render(
   <Router history={hashHistory}>
